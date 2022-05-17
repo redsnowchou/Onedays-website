@@ -1,0 +1,275 @@
+div.PublicityContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.1rem;
+  align-items: center;
+  justify-content: center;
+  a.lineContainer {
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 184, 0);
+    margin: 0rem 0.5vw 0rem 1.2vw;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      filter: contrast(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+    div.lineBg {
+      display: flex;
+      width: 31vw;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 4rem;
+      }
+      div.lineText {
+        color: rgb(0, 184, 0);
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 0.8vw;
+        line-height: 2rem;
+      }
+    }
+  }
+  a.calendarContainer {
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(81, 96, 117);
+    margin: 0rem 0.5vw 0rem 0.5vw;
+    width: 31vw;
+    height: 150px;
+    div.calendarBg {
+      display: flex;
+      flex-wrap: wrap;
+      background-image: url(./resource/reservation.png);
+      background-position: right;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-top: 1.5rem;
+      div.calendarLeft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.2vw;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          filter: brightness(1.2);
+          transition: all 0.3s ease-in-out;
+        }
+        div.calendarText_01 {
+          margin: 0rem 0rem 0.1rem 0rem;
+          color: rgb(81, 96, 117);
+          font-size: 0.5rem;
+          letter-spacing: 0.1rem;
+          font-weight: bold;
+        }
+        div.calendarText_02_Container {
+          display: flex;
+          margin: 0rem 0rem 0.5rem 0rem;
+          div.calendarText_02 {
+            color: rgb(81, 96, 117);
+            font-size: 1.5rem;
+            letter-spacing: 0.1rem;
+            font-weight: bold;
+            margin: 0rem 0.4vw 0rem 0rem;
+          }
+          img.calendar {
+            width: 2rem;
+          }
+        }
+        div.calendarButton_Container {
+          display: flex;
+          div.calendarButton_01 {
+            background-color: rgb(81, 96, 117);
+            color: white;
+            font-weight: bold;
+            margin: 0rem 0.8vw 0rem 0rem;
+            font-size: 0.9rem;
+            padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+          }
+          div.calendarButton_02 {
+            background-color: rgb(81, 96, 117);
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+          }
+        }
+      }
+    }
+  }
+  a.frequencyContainer {
+    text-decoration: none;
+    margin: 0rem 1.2vw 0rem 0.5vw;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      filter: contrast(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+    div.frequencyBg {
+      display: flex;
+      background-color: rgb(0, 193, 215);
+      width: 31vw;
+      height: 155px;
+      align-items: center;
+      justify-content: center;
+      img.frequency {
+        width: 6rem;
+        margin-right: 0.5vw;
+      }
+      div.frequencyText {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.PublicityContainer {
+    display: flex;
+    flex-direction: column;
+    a.lineContainer {
+      margin: 0rem 0vw 0rem 0vw;
+      div.lineBg {
+        width: 92vw;
+      }
+    }
+    div.BothContainer {
+      display: flex;
+      a.calendarContainer {
+        width: 45vw;
+        margin: 0rem 3vw 0rem 0vw;
+      }
+      a.frequencyContainer {
+        margin: 0rem 0vw 0rem 0vw;
+        div.frequencyBg {
+          width: 45vw;
+          height: 130px;
+          margin-top: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  div.PublicityContainer {
+    a.lineContainer {
+      div.lineBg {
+        width: 92vw;
+        height: 87px;
+        img {
+          width: 2.7rem;
+        }
+        div.lineText {
+          font-size: 8px;
+          margin-left: 2vw;
+          line-height: 1.3rem;
+        }
+      }
+    }
+    div.BothContainer {
+      display: flex;
+      a.calendarContainer {
+        width: 45vw;
+        margin: 0rem 3vw 0rem 0vw;
+        margin-top: 0.8rem;
+        height: 93.61px;
+        div.calendarBg {
+          background-image: none;
+          align-items: center;
+          justify-content: center;
+          margin-top: 0.5rem;
+          div.calendarLeft {
+            div.calendarText_01 {
+              transform: scale(0.8);
+              display: flex;
+            }
+            div.calendarText_02_Container {
+              display: flex;
+              margin: 0rem 0rem 0.5rem 0rem;
+              align-items: flex-end;
+              justify-content: center;
+              div.calendarText_02 {
+                color: rgb(81, 96, 117);
+                font-size: 1rem;
+                letter-spacing: 0.1rem;
+                font-weight: bold;
+                margin: 0rem 0.4vw 0rem 0rem;
+              }
+              img.calendar {
+                width: 1.5rem;
+              }
+            }
+            div.calendarButton_Container {
+              display: flex;
+              div.calendarButton_01 {
+                background-color: rgb(81, 96, 117);
+                color: white;
+                font-weight: bold;
+                margin: 0rem 1.5vw 0rem 0rem;
+                font-size: 0.8rem;
+                padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+              }
+              div.calendarButton_02 {
+                background-color: rgb(81, 96, 117);
+                color: white;
+                font-weight: bold;
+                font-size: 0.8rem;
+                padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+              }
+            }
+          }
+        }
+      }
+      a.frequencyContainer {
+        margin: 0rem 0vw 0rem 0vw;
+        div.frequencyBg {
+          width: 45vw;
+          height: 93px;
+          margin-top: 0.8rem;
+          img.frequency {
+            width: 4rem;
+            margin-right: 1vw;
+          }
+          div.frequencyText {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  div.PublicityContainer {
+    div.BothContainer {
+      a.calendarContainer {
+        height: 125px;
+        div.calendarBg {
+          div.calendarLeft {
+            div.calendarButton_Container {
+              margin-right: 0.2rem;
+              div.calendarButton_01 {
+                line-height: 1rem;
+              }
+              div.calendarButton_02 {
+                line-height: 1rem;
+              }
+            }
+          }
+        }
+      }
+      a.frequencyContainer {
+        div.frequencyBg {
+          width: 45vw;
+          height: 126px;
+          margin-top: 0.8rem;
+        }
+      }
+    }
+  }
+}

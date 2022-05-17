@@ -1,0 +1,272 @@
+div.SaleTimeBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #aa9471;
+  color: #fff;
+  height: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.SaleTimeBg div.SaleTimeBox {
+  margin: 0px 0px 0px 25vw;
+  background-color: #796951;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 104px;
+  height: 60px;
+}
+
+div.SaleTimeBg div.SaleTimeBox div.SaleTimeBox_2 {
+  background-color: white;
+  color: #796951;
+  border-radius: 10rem;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 4px 6px 2px;
+  letter-spacing: normal;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+div.SaleTimeBg div.SaleTimeBox div.SaleTimeText {
+  font-size: 11px;
+  margin-bottom: 0.1rem;
+}
+
+div.SaleTimeBg div.SaleTimeBox div.SaleTimeText span.SpanFont {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+div.SaleTimeBg div.SaleOff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+
+div.SaleTimeBg div.SaleOff div.SaleTimeWhiteBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  color: #796951;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 5px;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+div.SaleTimeBg div.SaleOff div.SaleTimeWhiteBg div.SaleTimeWhiteText_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1px;
+}
+
+div.SaleTimeBg div.SaleOff div.SaleTimeWhiteBg div.SaleTimeWhiteText_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1px;
+}
+
+div.SaleTimeBg div.SaleOff div.OffText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.5rem;
+  font-size: 2.1rem;
+}
+
+div.SaleTimeBg div.SaleOff div.OffText span.SpanOff {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  margin-top: 0.2rem;
+  margin-left: -0.3rem;
+}
+
+div.SaleTimeBg div.SaleTimeTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  margin-left: 1rem;
+  margin-right: 14vw;
+}
+
+div.SaleTimeBg div.LimitButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.SaleTimeBg div.LimitButton a {
+  font-size: 0.83rem;
+  padding: 5px 45px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+div.SaleTimeBg div.LimitButton a:hover {
+  border: 1px solid #ddd4c6;
+  color: #d5cab8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1300px) {
+  div.SaleTimeBg div.SaleTimeBox {
+    margin: 0px 0px 0px 12vw;
+  }
+  div.SaleTimeBg div.SaleTimeTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  div.SaleTimeBg div.SaleTimeBox {
+    margin: 0px 0px 0px 6vw;
+  }
+  div.SaleTimeBg div.SaleTimeTitle {
+    margin-right: 25vw;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  div.SaleTimeBg div.SaleTimeTitle {
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.SaleTimeBg div.SaleTimeBox {
+    margin: 0px 0px 0px 0vw;
+  }
+  div.SaleTimeBg div.SaleTimeTitle {
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.SaleTimeBg {
+    height: 65px;
+  }
+  div.SaleTimeBg div.SaleTimeBox {
+    margin-bottom: 1rem;
+    height: 65px;
+  }
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    font-size: 10px;
+    margin-right: 50vw;
+  }
+  div.SaleTimeBg div.SaleCol div.SaleOff {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    margin-left: 0rem;
+    margin-bottom: 0.5rem;
+  }
+  div.SaleTimeBg div.LimitButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.SaleTimeBg div.LimitButton a {
+    font-size: 0.83rem;
+    padding: 3px 4px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  div.SaleTimeBg div.LimitButton a:hover {
+    border: 1px solid #ffffff;
+    color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 50vw;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 40vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 35vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 28vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  div.SaleTimeBg div.SaleCol div.SaleTimeTitle {
+    margin-right: 2vw;
+  }
+}
+/*# sourceMappingURL=index.css.map */

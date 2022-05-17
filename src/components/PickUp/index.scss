@@ -1,0 +1,540 @@
+div.PickUpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div.PickUpTitle {
+    font-size: 34px;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+  div.PickUpImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a.PickUpLeft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-image: url(../PickUp/resource/PickUp01.jpeg);
+      width: 564.47px;
+      height: 564.47px;
+      background-position: center;
+      background-size: contain;
+      margin-right: 0.7rem;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-image: url(../PickUp/resource/PickUpWhite.jpg);
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover .PickUpLeft_Text01 {
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover .PickUpLeft_Text02 {
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover .PickUpLeft_Text03 {
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+      div.PickUpLeft_Text01 {
+        display: flex;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        color: rgb(0, 0, 0);
+        padding-left: 4rem;
+      }
+      div.PickUpLeft_Text02 {
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        color: rgb(99, 99, 99);
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+      a.PickUpLeft_Text03 {
+        color: rgb(41, 126, 184);
+        opacity: 0;
+        font-size: 0.9rem;
+        padding-left: 4rem;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+        &:hover {
+          color: rgb(26, 76, 109);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+
+    div.PickUpRight {
+      display: flex;
+      flex-direction: column;
+
+      div.PickUpRight01 {
+        display: flex;
+        a.PickUpRightImg02 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url(../PickUp/resource/PickUp02.jpeg);
+          width: 270.25px;
+          height: 270.25px;
+          background-position: center;
+          background-size: contain;
+          margin: 0.7rem;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-image: url(../PickUp/resource/PickUpWhite.jpg);
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg02_Text01 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg02_Text02 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          div.PickUpRightImg02_Text01 {
+            font-size: 1rem;
+            display: flex;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            color: rgb(99, 99, 99);
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+          }
+          a.PickUpRightImg02_Text02 {
+            font-size: 0.9rem;
+            color: rgb(41, 126, 184);
+            opacity: 0;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover {
+              color: rgb(26, 76, 109);
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+        a.PickUpRightImg03 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url(../PickUp/resource/PickUp03.jpeg);
+          width: 270.25px;
+          height: 270.25px;
+          background-position: center;
+          background-size: contain;
+          margin: 0.7rem;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-image: url(../PickUp/resource/PickUpWhite.jpg);
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg03_Text01 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg03_Text02 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          div.PickUpRightImg03_Text01 {
+            font-size: 1rem;
+            display: flex;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            color: rgb(99, 99, 99);
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+          }
+          a.PickUpRightImg03_Text02 {
+            font-size: 0.9rem;
+            color: rgb(41, 126, 184);
+            opacity: 0;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover {
+              color: rgb(26, 76, 109);
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+
+      div.PickUpRight02 {
+        display: flex;
+        a.PickUpRightImg04 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url(../PickUp/resource/PickUp04.jpeg);
+          width: 270.25px;
+          height: 270.25px;
+          background-position: center;
+          background-size: contain;
+          margin: 0.7rem;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-image: url(../PickUp/resource/PickUpWhite.jpg);
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg04_Text01 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg04_Text02 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          div.PickUpRightImg04_Text01 {
+            font-size: 1rem;
+            display: flex;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            color: rgb(99, 99, 99);
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+          }
+          a.PickUpRightImg04_Text02 {
+            font-size: 0.9rem;
+            color: rgb(41, 126, 184);
+            opacity: 0;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover {
+              color: rgb(26, 76, 109);
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+        a.PickUpRightImg05 {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url(../PickUp/resource/PickUp05.jpeg);
+          width: 270.25px;
+          height: 270.25px;
+          background-position: center;
+          background-size: contain;
+          margin: 0.7rem;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-image: url(../PickUp/resource/PickUpWhite.jpg);
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg05_Text01 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover .PickUpRightImg05_Text02 {
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+          }
+          div.PickUpRightImg05_Text01 {
+            font-size: 1rem;
+            display: flex;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            color: rgb(99, 99, 99);
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+          }
+          a.PickUpRightImg05_Text02 {
+            font-size: 0.9rem;
+            color: rgb(41, 126, 184);
+            opacity: 0;
+            font-size: 0.9rem;
+            padding-left: 2rem;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            &:hover {
+              color: rgb(26, 76, 109);
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+  button.PickUpButton {
+    width: 298px;
+    height: 49px;
+    margin-top: 3.2rem;
+    margin-bottom: 3rem;
+    border: rgb(109, 109, 109) 1px solid;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    color: rgb(109, 109, 109);
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: rgb(255, 255, 255);
+      background-color: #666;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  div.PickUpContainer {
+    div.PickUpImgContainer {
+      a.PickUpLeft {
+        width: 38vw;
+        height: 38vw;
+        margin-right: 1vw;
+        div.PickUpLeft_Text01 {
+          padding-left: 2rem;
+        }
+        div.PickUpLeft_Text02 {
+          padding-left: 2rem;
+          padding-right: 1rem;
+        }
+        a.PickUpLeft_Text03 {
+          padding-left: 2rem;
+        }
+      }
+
+      div.PickUpRight {
+        div.PickUpRight01 {
+          a.PickUpRightImg02 {
+            width: 18vw;
+            height: 18vw;
+            margin: 1vw;
+            div.PickUpRightImg02_Text01 {
+              padding-left: 1rem;
+            }
+            div.PickUpRightImg02_Text02 {
+              padding-left: 1rem;
+            }
+          }
+          a.PickUpRightImg03 {
+            width: 18vw;
+            height: 18vw;
+            margin: 1vw;
+            div.PickUpRightImg03_Text01 {
+              padding-left: 1rem;
+            }
+            div.PickUpRightImg03_Text02 {
+              padding-left: 1rem;
+            }
+          }
+        }
+
+        div.PickUpRight02 {
+          a.PickUpRightImg04 {
+            width: 18vw;
+            height: 18vw;
+            margin: 1vw;
+            div.PickUpRightImg04_Text01 {
+              padding-left: 1rem;
+            }
+            div.PickUpRightImg04_Text02 {
+              padding-left: 1rem;
+            }
+          }
+          a.PickUpRightImg05 {
+            width: 18vw;
+            height: 18vw;
+            margin: 1vw;
+            div.PickUpRightImg05_Text01 {
+              padding-left: 1rem;
+            }
+            div.PickUpRightImg05_Text02 {
+              padding-left: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 770px) {
+  div.PickUpContainer {
+    div.PickUpTitle {
+      font-size: 28px;
+      margin-top: 2.5rem;
+      margin-bottom: 1.8rem;
+    }
+    div.PickUpImgContainer {
+      flex-direction: column;
+      a.PickUpLeft {
+        width: 88vw;
+        height: 88vw;
+        margin-right: 1vw;
+        &:hover {
+          background-image: url(../PickUp/resource/PickUp01.jpeg);
+        }
+      }
+      div.PickUpLeft_Text01 {
+        margin-top: 1rem;
+        padding: 0rem 1.1rem 0rem 1.1rem;
+      }
+      div.PickUpLeft_Text02 {
+        color: rgb(99, 99, 99);
+        font-size: 0.8rem;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+        padding: 0rem 1.1rem 0rem 1.1rem;
+      }
+      a.PickUpLeft_Text03 {
+        font-size: 0.8rem;
+        color: rgb(41, 126, 184);
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+        padding: 0rem 1.1rem 0rem 1.1rem;
+        &:hover {
+          color: rgb(0, 36, 59);
+          transition: all 0.3s ease-in-out;
+        }
+      }
+      div.PickUpRight {
+        margin-top: 1.8rem;
+        div.PickUpRight01 {
+          a.PickUpRightImg02Container {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            a.PickUpRightImg02 {
+              width: 43vw;
+              height: 43vw;
+              margin: 1vw;
+              &:hover {
+                background-image: url(../PickUp/resource/PickUp02.jpeg);
+              }
+            }
+            div.PickUpRightImg02_Text01 {
+              color: rgb(99, 99, 99);
+              font-size: 0.8rem;
+              margin: 0.5rem 0rem 0.5rem 0rem;
+              padding-left: 1rem;
+              padding-right: 2rem;
+            }
+            a.PickUpRightImg02_Text02 {
+              padding-left: 1rem;
+              font-size: 0.8rem;
+              text-decoration: none;
+              margin-bottom: 1.8rem;
+              color: rgb(41, 126, 184);
+              &:hover {
+                color: rgb(0, 36, 59);
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+
+          a.PickUpRightImg03Container {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            a.PickUpRightImg03 {
+              width: 43vw;
+              height: 43vw;
+              margin: 1vw;
+              &:hover {
+                background-image: url(../PickUp/resource/PickUp03.jpeg);
+              }
+            }
+            div.PickUpRightImg03_Text01 {
+              color: rgb(99, 99, 99);
+              font-size: 0.8rem;
+              margin: 0.5rem 0rem 0.5rem 0rem;
+              padding-left: 1rem;
+            }
+            a.PickUpRightImg03_Text02 {
+              padding-left: 1rem;
+              font-size: 0.8rem;
+              text-decoration: none;
+              margin-bottom: 1.8rem;
+              color: rgb(41, 126, 184);
+              &:hover {
+                color: rgb(0, 36, 59);
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+        }
+
+        div.PickUpRight02 {
+          a.PickUpRightImg04Container {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            a.PickUpRightImg04 {
+              width: 43vw;
+              height: 43vw;
+              margin: 1vw;
+              &:hover {
+                background-image: url(../PickUp/resource/PickUp04.jpeg);
+              }
+            }
+            div.PickUpRightImg04_Text01 {
+              color: rgb(99, 99, 99);
+              font-size: 0.8rem;
+              margin: 0.5rem 0rem 0.5rem 0rem;
+              padding-left: 1rem;
+            }
+            a.PickUpRightImg04_Text02 {
+              padding-left: 1rem;
+              font-size: 0.8rem;
+              text-decoration: none;
+              color: rgb(41, 126, 184);
+              &:hover {
+                color: rgb(0, 36, 59);
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+
+          a.PickUpRightImg05Container {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            a.PickUpRightImg05 {
+              width: 43vw;
+              height: 43vw;
+              margin: 1vw;
+              &:hover {
+                background-image: url(../PickUp/resource/PickUp05.jpeg);
+              }
+            }
+            div.PickUpRightImg05_Text01 {
+              color: rgb(99, 99, 99);
+              font-size: 0.8rem;
+              margin: 0.5rem 0rem 0.5rem 0rem;
+              padding-left: 1rem;
+            }
+            a.PickUpRightImg05_Text02 {
+              padding-left: 1rem;
+              font-size: 0.8rem;
+              text-decoration: none;
+              color: rgb(41, 126, 184);
+              &:hover {
+                color: rgb(0, 36, 59);
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+    button.PickUpButton {
+      width: 223px;
+    }
+  }
+}

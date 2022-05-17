@@ -1,0 +1,155 @@
+div.ServeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 535.56px;
+  background-color: #e3e3e3;
+}
+
+div.ServeContainer div.serveLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.ServeContainer div.serveLeft img.serviceImg {
+  width: 650px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text01 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text01 span {
+  font-size: 2rem;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text02 {
+  font-size: 15px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text02 span {
+  font-size: 30px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text03 {
+  font-size: 15px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text03 span {
+  font-size: 30px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text04 {
+  font-size: 15px;
+}
+
+div.ServeContainer div.serveLeft div.serveLeft_text04 span {
+  font-size: 30px;
+}
+
+div.ServeContainer div.serveLeft button.serveButton {
+  width: 298px;
+  height: 49px;
+  margin-top: 5rem;
+  border: #6d6d6d 1px solid;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #6d6d6d;
+  background-color: #e3e3e3;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+div.ServeContainer div.serveLeft button.serveButton:hover {
+  color: white;
+  background-color: #666;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+div.ServeContainer img.serviceImg {
+  width: 650px;
+}
+
+@media screen and (max-width: 1320px) {
+  div.ServeContainer img.serviceImg {
+    width: 48vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.ServeContainer img.serviceImg {
+    width: 44vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  div.ServeContainer {
+    height: 560px;
+  }
+  div.ServeContainer div.serveLeft {
+    padding-right: 0vw;
+  }
+  div.ServeContainer div.serveLeft img.serviceImg {
+    width: 70vw;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text01 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text01 span {
+    font-size: 1.5rem;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text02 {
+    font-size: 11px;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text02 span {
+    font-size: 22px;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text03 {
+    font-size: 11px;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text03 span {
+    font-size: 22px;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text04 {
+    font-size: 11px;
+  }
+  div.ServeContainer div.serveLeft div.serveLeft_text04 span {
+    font-size: 22px;
+  }
+  div.ServeContainer div.serveLeft button.serveButton {
+    width: 223px;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.ServeContainer {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.ServeContainer {
+    height: 470px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

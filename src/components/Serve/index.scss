@@ -1,0 +1,155 @@
+div.ServeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 535.56px;
+  background-color: #e3e3e3;
+
+  div.serveLeft {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+    align-items: center;
+
+    img.serviceImg {
+      width: 650px;
+    }
+
+    div.serveLeft_text01 {
+      font-size: 30px;
+      font-weight: 400;
+
+      span {
+        font-size: 2rem;
+      }
+    }
+
+    div.serveLeft_text02 {
+      font-size: 15px;
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    div.serveLeft_text03 {
+      font-size: 15px;
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    div.serveLeft_text04 {
+      font-size: 15px;
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    button.serveButton {
+      width: 298px;
+      height: 49px;
+      margin-top: 5rem;
+      border: rgb(109, 109, 109) 1px solid;
+      font-size: 0.8rem;
+      letter-spacing: 0.1rem;
+      color: rgb(109, 109, 109);
+      background-color: #e3e3e3;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: rgb(255, 255, 255);
+        background-color: #666;
+        transition: all 0.3s ease-in-out;
+
+      }
+    }
+  }
+
+  img.serviceImg {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  div.ServeContainer {
+    img.serviceImg {
+      width: 48vw;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.ServeContainer {
+    img.serviceImg {
+      width: 44vw;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  div.ServeContainer {
+    height: 560px;
+
+    div.serveLeft {
+      img.serviceImg {
+        width: 70vw;
+      }
+
+      padding-right: 0vw;
+
+      div.serveLeft_text01 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 1rem;
+
+        span {
+          font-size: 1.5rem;
+        }
+      }
+
+      div.serveLeft_text02 {
+        font-size: 11px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      div.serveLeft_text03 {
+        font-size: 11px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      div.serveLeft_text04 {
+        font-size: 11px;
+
+        span {
+          font-size: 22px;
+        }
+      }
+
+      button.serveButton {
+        width: 223px;
+        margin-top: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.ServeContainer {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.ServeContainer {
+    height: 470px;
+  }
+}
