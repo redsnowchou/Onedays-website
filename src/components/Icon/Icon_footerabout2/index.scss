@@ -1,0 +1,9 @@
+a.Icon_eyeglassesContainer {
+  display: flex;
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  margin-left: 0.6rem;
+  &:hover {
+    color: rgb(167, 167, 167);
+  }
+}

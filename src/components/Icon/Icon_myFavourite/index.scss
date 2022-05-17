@@ -1,0 +1,20 @@
+a.Icon_myFavouriteContainer {
+  display: flex;
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  &:hover {
+    color: rgb(167, 167, 167);
+  }
+  img.heart {
+    margin-right: 1rem;
+    width: 1.2rem;
+    height:1.2rem;
+    
+  }
+  div.Icon_myFavouriteText{
+    line-height: 1rem;
+    font-size: 0.5rem;
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.1rem;
+  }
+}

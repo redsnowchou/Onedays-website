@@ -1,0 +1,25 @@
+a.Icon_virtualContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #797979;
+}
+
+a.Icon_virtualContainer:hover {
+  color: #a7a7a7;
+}
+
+a.Icon_virtualContainer img.icon_virtual {
+  margin-right: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+a.Icon_virtualContainer div.Icon_virtualText {
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #797979;
+  letter-spacing: 0.1rem;
+}
+/*# sourceMappingURL=index.css.map */

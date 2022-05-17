@@ -1,0 +1,25 @@
+a.Icon_myFavouriteContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #797979;
+}
+
+a.Icon_myFavouriteContainer:hover {
+  color: #a7a7a7;
+}
+
+a.Icon_myFavouriteContainer img.heart {
+  margin-right: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+a.Icon_myFavouriteContainer div.Icon_myFavouriteText {
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #797979;
+  letter-spacing: 0.1rem;
+}
+/*# sourceMappingURL=index.css.map */

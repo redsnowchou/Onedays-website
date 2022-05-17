@@ -1,0 +1,12 @@
+a.Icon_aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #797979;
+}
+
+a.Icon_aboutContainer:hover {
+  color: #a7a7a7;
+}
+/*# sourceMappingURL=index.css.map */

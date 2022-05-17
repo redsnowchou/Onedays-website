@@ -1,0 +1,27 @@
+div.invisibleMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.invisibleMenu div.invisibleBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 291.297px;
+  background: #f7f7f7;
+}
+
+div.invisibleMenu div.invisibleBg div.invistriangle {
+  margin-left: 10px;
+  float: left;
+  width: 0;
+  height: 0;
+  border-width: 100px;
+  border-style: solid;
+  border-color: #f7f7f7 transparent transparent transparent;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=index.css.map */

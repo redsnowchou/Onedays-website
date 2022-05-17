@@ -1,0 +1,18 @@
+a.Icon_EYE_CAMPContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+a.Icon_EYE_CAMPContainer:hover {
+  color: #a7a7a7;
+}
+
+a.Icon_EYE_CAMPContainer div.Icon_EYE_CAMPText {
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #797979;
+  letter-spacing: 0.1rem;
+}
+/*# sourceMappingURL=index.css.map */

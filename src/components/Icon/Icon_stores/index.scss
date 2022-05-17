@@ -1,0 +1,12 @@
+a.Icon_storesContainer {
+  display: flex;
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  &:hover {
+    color: rgb(167, 167, 167);
+  }
+  img.Icon_storesImg {
+    margin-right: 1rem;
+    width: 1rem;
+  }
+}

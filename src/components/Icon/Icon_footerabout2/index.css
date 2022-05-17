@@ -1,0 +1,13 @@
+a.Icon_eyeglassesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #797979;
+  margin-left: 0.6rem;
+}
+
+a.Icon_eyeglassesContainer:hover {
+  color: #a7a7a7;
+}
+/*# sourceMappingURL=index.css.map */

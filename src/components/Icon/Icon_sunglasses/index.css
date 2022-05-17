@@ -1,0 +1,17 @@
+a.Icon_sunglassesContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #797979;
+}
+
+a.Icon_sunglassesContainer:hover {
+  color: #a7a7a7;
+}
+
+a.Icon_sunglassesContainer img.Icon_sunglassesImg {
+  margin-right: 1rem;
+  width: 2.1rem;
+}
+/*# sourceMappingURL=index.css.map */

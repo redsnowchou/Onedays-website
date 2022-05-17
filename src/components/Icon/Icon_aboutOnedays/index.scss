@@ -1,0 +1,14 @@
+a.Icon_aboutOnedaysContainer {
+  display: flex;
+  text-decoration: none;
+
+  &:hover {
+    color: rgb(167, 167, 167);
+  }
+  div.Icon_aboutOnedaysText {
+    line-height: 1rem;
+    font-size: 0.5rem;
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.1rem;
+  }
+}
