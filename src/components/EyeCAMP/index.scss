@@ -1,0 +1,232 @@
+div.PopularityContainer{
+  display: flex;
+  flex-direction: column;
+  div.PopularityTitle{ 
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  div.PopularityImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div.PopularityImagesA{
+      a.PopularityImg01{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg02{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg03{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg04{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+    div.PopularityImagesB{
+      a.PopularityImg05{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg06{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg07{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+      a.PopularityImg08{
+        img{
+          width: 275.89px;
+          margin: 0.5rem;
+          &:hover{
+            filter: opacity(0.6);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1450px){
+  div.PopularityContainer{
+    div.PopularityImages{
+      div.PopularityImagesA{
+        a.PopularityImg01{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg02{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg03{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg04{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+      }
+      div.PopularityImagesB{
+        a.PopularityImg05{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg06{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg07{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+        a.PopularityImg08{
+          img{
+            width: 19.1vw;
+            margin: 0.5vw;
+          }
+        }
+      }
+    }
+  }
+} 
+
+@media screen and (max-width: 770px){
+  div.PopularityContainer{
+    div.PopularityTitle{ 
+      font-size: 26px;
+      margin-top: 0rem;
+      margin-bottom: 1.5rem;
+    }
+    div.PopularityImages{
+      div.PopularityImagesA{
+        a.PopularityImg01{
+          img{
+            width: 42vw;
+            margin: 1vw;
+            &:hover{
+              filter: opacity(1);
+            }
+          }
+        }
+        a.PopularityImg02{
+          img{
+            width: 42vw;
+            margin: 1vw;
+            &:hover{
+              filter: opacity(1);
+            }
+          }
+        }
+      }
+      div.PopularityImagesB{
+        a.PopularityImg03{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+        a.PopularityImg04{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+      }
+      div.PopularityImagesC{
+        a.PopularityImg05{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+        a.PopularityImg06{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+      }
+      div.PopularityImagesD{
+        a.PopularityImg07{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+        a.PopularityImg08{
+          img{
+            width: 42vw;
+            margin: 1vw;
+          }
+        }
+      }
+    }
+  }
+}

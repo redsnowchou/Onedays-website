@@ -1,0 +1,180 @@
+section.FooterBg {
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+section.FooterBg div.FooterContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 8vw;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent1 div.FooterContent1_Title {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent1 a.FooterContent1_Text {
+  color: #999;
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent1 a.FooterContent1_Text:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #2f2f2f;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 8vw;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent2 div.FooterContent2_Title {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent2 a.FooterContent2_Text {
+  color: #999;
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent2 a.FooterContent2_Text:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #2f2f2f;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 8vw;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent3 div.FooterContent3_Title {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent3 a.FooterContent3_Text {
+  color: #999;
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent3 a.FooterContent3_Text:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #2f2f2f;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 8vw;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent4 div.FooterContent4_Title {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent4 a.FooterContent4_Text {
+  color: #999;
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent4 a.FooterContent4_Text:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #2f2f2f;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent5 div.FooterContent5_Title {
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent5 a.FooterContent5_Text {
+  color: #2f2f2f;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+section.FooterBg div.FooterContainer div.FooterContent5 a.FooterContent5_Text:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #999;
+}
+
+section.FooterBg div.Copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #1c1c1c;
+}
+/*# sourceMappingURL=index.css.map */
